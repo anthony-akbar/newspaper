@@ -20,7 +20,6 @@ class App extends Component {
                 })
             }
         }).then(()=>{console.log(this.state.data)})
-
     }
 
     render() {
@@ -29,7 +28,7 @@ class App extends Component {
                 <NavbarMenu/>
                 {/*<RightSideBar data={this.state.data}/>*/}
                 <Switch>
-                    <Route exact path="/news">
+                    <Route exact path="/">
                         <News data={this.state.data}/>
                     </Route>
                     {this.state.data.map((item)=>

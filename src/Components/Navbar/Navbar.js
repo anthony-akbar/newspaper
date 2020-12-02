@@ -7,7 +7,7 @@ class NavbarMenu extends Component {
         return (
             <Navbar bg="dark" expand="lg" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                    <NavLink style={{fontWeight:"bold",color:"white"}} className="nav-link" to="/">IT-Park NewsPaper</NavLink>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
